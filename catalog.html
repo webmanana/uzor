@@ -1,0 +1,141 @@
+
+ <!doctype html>
+<html class="no-js" lang="ru" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>САХАКЕРАМИКА | Каталог</title>
+	<link rel="stylesheet" href="preloader.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/foundation/css/foundation.css">
+	<link rel="stylesheet" href="vendor/foundation/css/app.css">
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrap_page">
+		<div class="container_catalog">
+			<div class="catalog_back" style="background-image: url(./img/catalog1.jpg);">
+				<div class="catalog_gradient"></div>
+				<header class="header_catalog">
+					<div class="header_left">
+						<div class="logo">
+							<a href="#"><img src="img/logo.png" alt="Сахакерамика"></a>
+						</div>
+						<div class="phone">
+							<span>Звоните:</span> +7 (914) 274-51-00
+						</div>
+					</div>
+					<div class="header_right">
+						<div class="header_search">
+							<a class="search_trigger_mobile" href="#" data-toggle="offCanvasRightSplit1"><img src="img/search.png" alt=""></a>
+							<a class="search_trigger" href="#"><img src="img/search.png" alt=""></a>
+							<form class="search_block_catalog" action="/search/index.php" style="display:none">
+								<input class="search" type="text" name="q" value="" autocomplete="off" placeholder="Что вы хотите найти?">
+								<input class="search_submit" name="s" type="submit" value="Поиск">
+							</form>
+						</div>
+						<div class="header_text">
+							<span>Помогаем строить!</span>
+						</div>
+						<div class="burger_inner">
+							<a href="#" data-toggle="offCanvasRightSplit2"><img src="img/hburger.png" alt=""></a>
+						</div>
+					</div>
+				</header>
+				<div class="breadcramb_catalog">
+					<h1>Каталог</h1>
+				</div>
+			</div>
+			<div class="catalog_wrap">
+				<div class="row">
+					<div class="brend_top">
+						<a href="#"><img src="img/uzor.png" alt=""></a>
+					</div>
+					<div class="brend_bottom">
+						<a href="#"><img src="img/brend1.png" alt=""></a>
+						<a href="#"><img src="img/brend2.png" alt=""></a>
+						<a href="#"><img src="img/brend3.png" alt=""></a>
+						<a href="#"><img src="img/brend4.png" alt=""></a>
+						<a href="#"><img src="img/brend5.png" alt=""></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="brend_top">
+						<a href="#"><img src="img/keramica.png" alt=""></a>
+					</div>
+					<div class="brend_bottom">
+						<a href="#"><img src="img/brend6.png" alt=""></a>
+						<a href="#"><img src="img/brend7.png" alt=""></a>
+						<a href="#"><img src="img/brend8.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<footer class="page_footer">
+				<div class="footer_menu page_footer_menu">
+					<ul>
+						<li><a href="#"><img src="img/burger_footer_black.png" alt=""></a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Распродажа</a></li>
+						<li><a class="active" href="#">Строителям</a></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Партнерам</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+
+				</div>
+			</footer>
+		</div>
+	</div>
+	<!-- canvas -->
+	<div class="off-canvas position-right" id="offCanvasRightSplit2" data-off-canvas>
+		<div class="canvas_header">
+			<a href="#" class="canvas_phone">Звоните: <span>+7 (914) 274-51-00</span></a>
+			<a href="#" class="canvas_burger" data-toggle="offCanvasRightSplit2"><img src="img/close.png" alt=""></a>
+		</div>
+		<ul class="canvas_menu">
+			<li><a href="#">Каталог</a></li>
+			<li><a href="#">Распродажа</a></li>
+			<li><a href="#">Строителям</a></li>
+			<li><a href="#">Компания</a></li>
+			<li><a href="#">Партнёрам</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#">Главная</a></li>
+			<li><span>Сахакерамика - помогаем строить!</span></li>
+		</ul>
+	</div>
+	<div class="off-canvas position-right" id="offCanvasRightSplit1" data-off-canvas>
+		<div class="canvas_header">
+			<a href="#" class="canvas_phone">Звоните: <span>+7 (914) 274-51-00</span></a>
+			<a href="#" class="canvas_burger" data-toggle="offCanvasRightSplit1"><img src="img/close.png" alt=""></a>
+		</div>
+		<form class="search_block_canvas" action="/search/index.php">
+			<input class="search_canvas" type="text" name="q" value="" autocomplete="off" placeholder="Что вы хотите найти?">
+			<input class="search_submit_canvas" name="s" type="submit" value="Поиск">
+		</form>
+	</div>
+	<script src="vendor/foundation/js/vendor/jquery.js"></script>
+	<script src="vendor/foundation/js/vendor/what-input.js"></script>
+	<script src="vendor/foundation/js/vendor/foundation.js"></script>
+	<script src="vendor/foundation/js/app.js"></script>
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$('.slider-nav .slick-slide').on('click', function(event) {
+			$('.slider-for').slick('slickGoTo', $(this).data('slickIndex'));
+		});
+		$(".search_trigger").click(function(event) {
+			$(".search_block_catalog").css("display", "flex");
+			$(".search").focus();
+			$(".search_trigger").css("border-right", "none");
+		});
+		$(".search").keyup(function(event) {
+			$(".search_submit").css("color", "#9BC329");
+		});
+	</script>
+</body>
+
+</html>
