@@ -47,10 +47,10 @@
 			</div>
 			<div class="search_inner">
                 <h1>Поиск на сайте</h1>
-                <div class="search_form">
+                <form class="search_form" action="index.html" method="post">
                     <input type="text" name="" value="" placeholder="Что ищете?">
                     <input type="submit" name="" value="Поиск">
-                </div>
+                </form>
                 <div class="search_result">
                     <div class="search_result_title">
                         <div class="search_result_title_text">Результаты поиска: <span>1 - 10 из 14</span></div>
@@ -176,6 +176,7 @@
     $(".search_trigger").click(function(event) {
         $(".search_block_catalog").css("display", "flex");
         $(".search").focus();
+        $(".header_text").css("display", "none");
         $(".search_trigger").css("border-right", "none");
     });
     $(".search").keyup(function(event) {

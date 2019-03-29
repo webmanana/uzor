@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	color: #000;
 	font-family: 'Montserrat', sans-serif;
@@ -14,6 +17,7 @@ ul, ol {
 	padding: 0;
 	margin: 0;
 }
+
 .wrap {
 	background-color: #000;
 	overflow: hidden;
@@ -166,6 +170,7 @@ input[type="submit"].search_submit_page {
     font-size: 14px;
     text-transform: uppercase;
     margin-left: 10px;
+	outline: none;
 }
 input[type="text"].search {
     height: 30px;
@@ -1032,11 +1037,7 @@ input[type="submit"].search_submit_canvas {
 .container_catalog_inner {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 0;
-    right: 0;
-	top: 0;
-    bottom: 0;
+	height: 100%;
 }
 .brend_top {
     padding-left: 80px;
@@ -1338,6 +1339,8 @@ input[type="submit"].search_submit_canvas {
 	line-height: 18px;
 	text-align: center;
 	color: #828282;
+	outline: none;
+	cursor: pointer;
 }
 .opt_tabs ul li a:hover {
 	color: #828282;
@@ -1897,6 +1900,43 @@ input[type="submit"].search_submit_canvas {
 	}
 	.contact_sklad {
 		padding-top: 15px;
+	}
+	.button_inner {
+	    top: 210px;
+	}
+	.footer, .footer_copyright {
+	    bottom: 50px;
+	}
+	.main_left h2 {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.catalog_content {
+		padding-left: 0;
+	}
+	.contact_salon {
+		padding-left: 30px;
+	}
+	.contact_title h1 {
+		padding-left: 30px;
+	}
+	.fixed_bottom_partner {
+		position: relative;
+	}
+	.contact_row1 {
+		padding-bottom: 30px;
+	}
+	.contact_soc {
+		padding-left: 30px;
+	}
+	.page_footer_catalog {
+		padding-left: 30px;
+	}
+	.header_left {
+		width: 50%;
+	}
+	.header_right {
+		width: 50%;
 	}
 }
 @media (max-width: 1280px) {
